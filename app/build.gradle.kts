@@ -93,7 +93,14 @@ dependencies {
     implementation ("com.squareup.retrofit2:converter-moshi:2.11.0")
     //stack
     implementation("com.github.Zhuinden:simple-stack:2.9.0")
-    implementation("com.github.Zhuinden:simple-stack-extensions:2.3.4")
+    // build.gradle.kts
+    implementation("com.github.Zhuinden.simple-stack-extensions:core-ktx:2.3.4")
+    implementation("com.github.Zhuinden.simple-stack-extensions:fragments:2.3.4")
+    implementation("com.github.Zhuinden.simple-stack-extensions:fragments-ktx:2.3.4")
+    implementation("com.github.Zhuinden.simple-stack-extensions:lifecycle-ktx:2.3.4")
+    implementation("com.github.Zhuinden.simple-stack-extensions:navigator-ktx:2.3.4")
+    implementation("com.github.Zhuinden.simple-stack-extensions:services:2.3.4")
+    implementation("com.github.Zhuinden.simple-stack-extensions:services-ktx:2.3.4")
 
 //    implementation(files("libs/slimadapter-2.1.2.aar"))
 
